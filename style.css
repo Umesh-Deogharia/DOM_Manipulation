@@ -1,60 +1,66 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
 }
-.container{
+
+.container {
     margin-left: 50px;
     margin-top: 50px;
 }
-h1{
+
+h1 {
     color: white;
     font-size: 60px;
     font-weight: 400;
 }
 
-#paras{
+#paras {
     display: flex;
     gap: 5px;
     font-size: 22px;
 }
-#para1{
+
+#para1 {
     color: #D3D3D3;
 }
 
-#para2{
+#para2 {
     color: white;
 }
 
-hr{
+hr {
     width: 188px;
 }
 
-#error{
+#error {
     margin-top: 30px;
     color: brown;
     font-size: large;
     display: none;
 }
 
-.buttons{
+.buttons {
     margin-top: 25px;
     display: flex;
     gap: 14px;
 }
-#decrement{
+
+#decrement {
     width: 120px;
     height: 30px;
 }
-#increment{
+
+#increment {
     width: 120px;
     height: 30px;
 }
-#clear{
+
+#clear {
     background-color: black;
     color: white;
     width: 120px;
