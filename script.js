@@ -24,12 +24,14 @@ function calc(e) {
     decrement.style.color = "gray";
     clear.style.display = "none";
     decrement.style.cursor = "not-allowed";
+    decrement.disabled = true;
   } else {
     error.style.display = "none";
     clear.style.display = "block";
     decrement.style.backgroundColor = "white";
     decrement.style.color = "black";
     decrement.style.cursor = "auto";
+    decrement.disabled = false;
   }
 }
 document.getElementById("decrement").addEventListener("click", calc);
